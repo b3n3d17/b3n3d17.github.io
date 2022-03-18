@@ -2,23 +2,22 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+#subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  address: 
+    <a href="https://en.wikipedia.org/wiki/Munich">Munich</a>
+  # <p>555 your office number</p>
+  # <p>123 your address street</p>
+  #<p>Your City, State 12345</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I started my careere as a chemical technician at <a href ="https://www.roche.de/ueber-roche/standorte/penzberg/">Roche Diagnostics GmbH in Penzberg. Being inspired to learn more I continued my studies with a with Bachelor and Masters degree in Computer Sciences at the <a href="https://www.hs-kempten.de/">Univercity of Applied Sciences Kempten</a>. There I could combine my love for technology with the beautiful nature of the Allgäu region. I finished my degree with a thesis at <a href="https://siemens.com"> Siemens</a> in Munich where I continue to work as a Junior Cybersecurity Architect. In that role I am researching and consulting on blockchain security, container security and privacy topics together with my collegues.
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
