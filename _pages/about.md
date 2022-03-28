@@ -19,5 +19,3 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I started my careere as a chemical technician at <a href ="https://www.roche.de/ueber-roche/standorte/penzberg/">Roche Diagnostics GmbH in Penzberg. Being inspired to learn more I continued my studies with a with Bachelor and Masters degree in Computer Sciences at the <a href="https://www.hs-kempten.de/">Univercity of Applied Sciences Kempten</a>. There I could combine my love for technology with the beautiful nature of the Allgäu region. I finished my degree with a thesis at <a href="https://siemens.com"> Siemens</a> in Munich where I continue to work as a Junior Cybersecurity Architect. In that role I am researching and consulting on blockchain security, container security and privacy topics together with my collegues.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
