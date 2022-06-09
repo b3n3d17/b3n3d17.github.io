@@ -2,7 +2,8 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Container and Blockchain Security # the website title (if blank, full name will be used instead)
+title: Container and Blockchain Security 
+# the website title (if blank, full name will be used instead)
 first_name: Benedikt
 middle_name: 
 last_name: Hofmann
@@ -30,7 +31,7 @@ impressum_path:  # set to path to include impressum link in the footer, use the 
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
