@@ -3,8 +3,8 @@ layout: post
 title:  CONVERGENCE NEXT  
 date:   2022-06-03 17:20:16
 description: Meeting cybersecurity experts from all around europe who collaborated in 4 pilot projects
-tags: work, cybersecurity, europe, brussels 
-categories: sample-posts
+tags: cybersecurity, europe, brussels 
+categories: work 
 ---
 # Brussels 01.06.2022-03.06.2022
 
