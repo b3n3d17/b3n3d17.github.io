@@ -1,0 +1,75 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Benedikt Hofmann 
+    - name: Date of Birth
+      value: 1995
+    - name: Languages
+      value: German, English
+
+- title: Education
+  type: time_table
+  contents:
+    - title: M.Sc. Infomration Technology
+      institution: Kempten University of Applied Sciences
+      year: 2021 
+    - title: B.Sc. Infomration Technology
+      institution: Kempten University of Applied Sciences
+      year: 2019
+    - title: University entrance qualification
+      institution: Staatliche Berufsoberschule Weilheim i.OB
+      year: 2015
+    - title: Chemikant
+      institution: Roche Diagnostics GmbH, Penzberg
+      year: 2014
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Cybersecurity Architect
+      institution: Siemens AG
+      year: since 2021
+      description:
+        - Blockchain Security
+        - Container Security
+        - Privacy Consulting
+    - title: Master Thesis
+      institution: Siemens AG
+      year: 2021
+      description:
+        - Privacy enhancing audit trail for Hyperledger Blockchain.
+    - title: Software development intern
+      institution: kasasi GmBH
+      year: 2018
+      description:
+        - Full stack development, creating simulation software for testing of vehicle sensor data.
+    - title: Chemikant
+      institution: Roche Diagnostics GmbH, Penzberg
+      year: 2014
+      description:
+        - Planning, provisioning, and evaluation of laboratory experiments in the field of enzymatic synthesis of bio substances.
+
+- title: Certifications
+  type: time_table
+  contents:
+    - year: 2022
+      items: 
+        - Certified Information Privacy Professional/Europe (CIPP/E) 
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Container Security
+      items: 
+        - Policy enforcement
+        - Vulnerability scanning
+    - title: Mobile Application Security
+      items:
+        - Hardware backed security.
+        - OS integrity.
+
+- title: Other Interests
+  type: list
+  contents:
+    - <u>Hobbies:</u> Hike, Bike, Ski

@@ -7,6 +7,11 @@ permalink: /
 profile:
   align: right
   image: prof_pic.jpg
+  image_circular: false # crops the image to make it circular
+  address: >
+    <p>555 your office number</p>
+    <p>123 your address street</p>
+    <p>Your City, State 12345</p>
   address: 
     <a href="https://en.wikipedia.org/wiki/Munich">Munich</a>
   # <p>555 your office number</p>
@@ -18,7 +23,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I started my career as a chemical technician at <a href ="https://www.roche.de/ueber-roche/standorte/penzberg/">Roche Diagnostics GmbH in Penzberg.
+I started my career as a chemical technician at <a href ="https://www.roche.de/ueber-roche/standorte/penzberg/">Roche Diagnostics GmbH in Penzberg</a>.
 Inspired to learn more I continued my studies with a Bachelor and Masters degree in Computer Sciences at the <a href="https://www.hs-kempten.de/">University of Applied Sciences Kempten</a>.
 There I combined my passion for technology with the beautiful nature of the Allgäu region.
 I finished my degree with a thesis at <a href="https://siemens.com"> Siemens AG </a> in Munich.
