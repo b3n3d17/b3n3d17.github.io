@@ -7,7 +7,7 @@ title: Container and Blockchain Security
 first_name: Benedikt
 middle_name: 
 last_name: Hofmann
-email: hofmann.benedikt.hb@web.de
+email: hofmann.benedikt@posteo.net
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -218,17 +218,15 @@ jekyll-minifier:
 # -----------------------------------------------------------------------------
 
 jekyll-archives:
-  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+  enabled: [year, tags] # enables year, tag and category archives (remove if you need to disable one of them).
   layouts:
     year: archive-year
     tag: archive-tag
-    category: archive-category
   permalinks:
     year: '/blog/:year/'
     tag: '/blog/tag/:name/'
-    category: '/blog/category/:name/'
 
-display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will be dispalyed on the front page of your blog
+display_tags: ['cybersecurity','privacy', 'travel' ] # this tags will be dispalyed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
