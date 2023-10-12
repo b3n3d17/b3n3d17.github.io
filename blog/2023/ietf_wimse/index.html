@@ -10,10 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>cybersecurity, | Container and Mobile Application Security</title>
+    <title>Simplifying OAuth for Container Orchestration | Container and Mobile Application Security</title>
     <meta name="author" content="Benedikt  Hofmann">
-    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-">
+    <meta name="description" content="Discussing a method for simplified oauth client authentication for orchestrated containerized microservices">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -39,7 +38,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://hofmannb.dev/blog/tag/cybersecurity/">
+    <link rel="canonical" href="https://hofmannb.dev/blog/2023/ietf_wimse/">
 
     <!-- Dark Mode -->
     
@@ -117,56 +116,48 @@
     <!-- Content -->
     <div class="container mt-5">
       
-        <div class="post">
+        <!-- _layouts/post.html -->
+
+<div class="post">
 
   <header class="post-header">
-    <h1 class="post-title"> <i class="fas fa-hashtag fa-sm"></i> cybersecurity, </h1>
-    <p class="post-description"> an archive of posts with this tag </p>
+    <h1 class="post-title">Simplifying OAuth for Container Orchestration</h1>
+    <p class="post-meta">October 12, 2023</p>
+    <p class="post-tags">
+      <a href="/blog/2023"> <i class="fas fa-calendar fa-sm"></i> 2023 </a>
+        ·  
+        <a href="/blog/tag/cybersecurity">
+          <i class="fas fa-hashtag fa-sm"></i> cybersecurity,</a>  
+          <a href="/blog/tag/ietf">
+          <i class="fas fa-hashtag fa-sm"></i> ietf</a>  
+          
+        ·  
+        <a href="/blog/category/work">
+          <i class="fas fa-tag fa-sm"></i> work</a>  
+          
+
+    </p>
   </header>
 
-  <article>
-    <div class="table-responsive">
-      <table class="table table-sm table-borderless">
-        
-        <tr>
-          <th scope="row">Oct 12, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/ietf_wimse/">Simplifying OAuth for Container Orchestration</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Feb 11, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/london/">SANS Offensive Operations London 2023</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Oct 12, 2022</th>
-          <td>
-              <a class="post-link" href="/blog/2022/novi_sad/">Collabs Info Day</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Aug 26, 2022</th>
-          <td>
-              <a class="post-link" href="/blog/2022/finland/">2022 IEEE Cybermatics Congress</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Jun 3, 2022</th>
-          <td>
-              <a class="post-link" href="/blog/2022/convergenceNext/">CONVERGENCE NEXT</a>
-          </td>
-        </tr>
-      
-      </table>
+  <article class="post-content">
+    
+    <div id="markdown-content">
+      <p>In the world of container orchestration, where microservices dynamically interact with each other and external resources, securing access to protected resources is a paramount concern. The OAuth 2.0 framework was designed to facilitate secure access management in distributed systems, but it often poses challenges, especially when it comes to managing sensitive secrets like client IDs and client secrets. The solution to this complex issue lies in “Service Account Token Volume Projection,” a concept introduced by Kubernetes that injects JSON Web Tokens (JWTs) into workloads.</p>
+
+<p>This <a href="https://datatracker.ietf.org/doc/draft-hofmann-wimse-workload-identity-bcp/" rel="external nofollow noopener" target="_blank">IETF draft</a> outlines how these JWTs can be employed to handle client credentials in container orchestration systems. Its primary aim is to enhance interoperability within orchestration systems while reducing complexities for developers. Moreover, it incentivizes authorization servers to support RFC 7523, a crucial aspect of OAuth 2.0.</p>
+
+<p>Traditionally, provisioning unique credentials for every workload instance was a manual and cumbersome process, devoid of automated rotation mechanisms. This not only added inconvenience but also increased the attack surface. Service Account Token Volume Projection changes the game by enabling the creation of JWTs known as Service Account Tokens. These tokens act as client credentials, eliminating the need for client ID and client secret configurations.</p>
+
+<p>Additionally, the feature permits automated token rotation and ensures that private keys for token signing are handled by the control plane, further reducing manual configuration efforts. However, the lack of a standardized approach for managing these tokens across various container orchestrators and lacking wide spread support by authorization servers leads to additional development efforts. In a PoC I used this approach with <a href="https://duendesoftware.com/products/identityserver" rel="external nofollow noopener" target="_blank">Duende Identity Server</a>. And there I needed to modify the credential verifiaction in order for this approach to work.</p>
+
+<p>This IETF draft presents a standardized approach for managing Service Account Tokens in container orchestration systems. By doing so, it promotes a secure and scalable method for creating and managing these tokens while ensuring seamless integration with existing OAuth-based authorization systems.</p>
+
+<p>In a nutshell, this approach simplifies the OAuth 2.0 framework for container orchestration, making it more developer-friendly, secure, and efficient. It’s a significant step forward in the realm of container orchestration, promising a brighter and more secure future for microservices and their interaction with the broader network.</p>
+
+<p>Please get involved in the discussion <a href="mailto:draft-hofmann-wimse-workload-identity-bcp@ietf.org?subject=Mail%20regarding%20draft-hofmann-wimse-workload-identity-bcp">here</a></p>
+
     </div>
   </article>
-
 </div>
 
       
