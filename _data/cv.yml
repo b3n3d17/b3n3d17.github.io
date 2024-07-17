@@ -8,22 +8,6 @@
     - name: Languages
       value: German, English
 
-- title: Education
-  type: time_table
-  contents:
-    - title: M.Sc. Information Technology
-      institution: Kempten University of Applied Sciences
-      year: 2021 
-    - title: B.Sc. Information Technology
-      institution: Kempten University of Applied Sciences
-      year: 2019
-    - title: University entrance qualification
-      institution: Staatliche Berufsoberschule Weilheim i.OB
-      year: 2015
-    - title: Chemikant
-      institution: Roche Diagnostics GmbH, Penzberg
-      year: 2014
-
 - title: Experience
   type: time_table
   contents:
@@ -51,11 +35,6 @@
       year: 2018
       description:
         - Full stack development, creating simulation software for testing of vehicle sensor data.
-    - title: Chemikant
-      institution: Roche Diagnostics GmbH, Penzberg
-      year: 2014
-      description:
-        - Planning, provisioning, and evaluation of laboratory experiments in the field of enzymatic synthesis of bio substances.
 
 - title: Certifications
   type: time_table
@@ -67,6 +46,22 @@
       items: 
         - Certified Information Privacy Professional/Europe (CIPP/E) 
 
+- title: Education
+  type: time_table
+  contents:
+    - title: M.Sc. Information Technology
+      institution: Kempten University of Applied Sciences
+      year: 2021 
+    - title: B.Sc. Information Technology
+      institution: Kempten University of Applied Sciences
+      year: 2019
+    - title: University entrance qualification
+      institution: Staatliche Berufsoberschule Weilheim i.OB
+      year: 2015
+    - title: Chemikant
+      institution: Roche Diagnostics GmbH, Penzberg
+      year: 2014
+
 - title: Academic Interests
   type: nested_list
   contents:
@@ -77,9 +72,20 @@
         - Orchestration security
     - title: Mobile Application Security
       items:
-        - Hardware backed security.
-        - OS integrity.
-        - Static Analysis
+        - WASM, wasmtime, wamr
+        - AOSP for industrial use
+        - Mobile Application Security
+        - OWASP MASVS, MASTG
+
+- title: Unrelated Work Experience
+  type: time_table
+  contents:
+    - title: Chemikant
+      institution: Roche Diagnostics GmbH, Penzberg
+      year: 2014
+      description:
+        - Planning, provisioning, and evaluation of laboratory experiments in the field of enzymatic synthesis of bio substances.
+
 - title: Other Interests
   type: list
   contents:
