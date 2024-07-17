@@ -27,9 +27,16 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Cybersecurity Architect
+    - title: Research Scientist
       institution: Siemens AG
-      year: since 2021
+      year: since 2024
+      description:
+        - External Lecturer at TUM/HM
+        - Container Security
+        - Mobile Application Security
+    - title: Junior Cybersecurity Architect
+      institution: Siemens AG
+      year: 2021
       description:
         - Blockchain Security
         - Container Security
