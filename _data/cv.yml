@@ -39,11 +39,14 @@
 - title: Certifications
   type: time_table
   contents:
+    - year: 2024
+      items:
+        - GIAC Certified Web Application Defender (GWEB)
     - year: 2023
-      items: 
+      items:
         - GIAC Mobile Device Security Analyst (GMOB) 
     - year: 2022
-      items: 
+      items:
         - Certified Information Privacy Professional/Europe (CIPP/E) 
 
 - title: Education
