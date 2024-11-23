@@ -185,12 +185,12 @@ at the <a href="https://www.tum.de/" rel="external nofollow noopener" target="_b
                 <tr>
                   <th scope="row">Nov 23, 2024</th>
                   <td>
-                    Currently playing Cloud Run on GCP. Awesome service 🚀. However, using volumes
-is a pain. You can use <code class="language-plaintext highlighter-rouge">gcfuse</code> to <em>mount</em> buckets to the file-system. Sound nice.
-However, its cannot be used for concurrent access. I could use NFS but I in order
-to provision a managed service it costs 200$/month at least. The only option
-is to provision myself bare metal with NFS - but if I do that why am I using
-server-less 😭😭😭😭.
+                    Currently I am playing with Cloud Run on <code class="language-plaintext highlighter-rouge">GCP</code> (Awesome service 🚀.
+However, using volumes is a pain. I can use <code class="language-plaintext highlighter-rouge">gcfuse</code> to <em>mount</em> buckets to the
+file-system - So far so good. However, it cannot be used for concurrent access.
+I could use NFS volumes as the <em>only</em> alternative, but the costs start at 200$/month.
+Alternative: Provision small VM and start … NFS … so … I need a … VM for my
+<strong>SERVER LESS</strong> application 😭😭😭😭.
 
                   </td>
                 </tr>
