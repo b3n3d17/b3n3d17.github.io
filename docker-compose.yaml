@@ -7,4 +7,4 @@ services:
     ports:
       - 8080:8080
     volumes:
-      - /home/bene/git/b3n3d17.github.io:/srv/jekyll:rw,Z
+      - /home/phl/git/b3n3d17.github.io:/srv/jekyll:rw,Z
