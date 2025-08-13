@@ -3,39 +3,48 @@
   contents:
     - name: Full Name
       value: Benedikt Hofmann 
-    - name: Date of Birth
-      value: 1995
+    - name: Current Position
+      value: Research Scientist, Siemens AG Munich
+    - name: Location
+      value: Munich, Germany
     - name: Languages
-      value: German, English
+      value: German (Native), English (Fluent)
+    - name: Specialization
+      value: Cybersecurity, Container Security, Mobile Application Security
 
 - title: Experience
   type: time_table
   contents:
     - title: Research Scientist
-      institution: Siemens AG
-      year: since 2024
+      institution: Siemens AG, Munich
+      year: 2024 - present
       description:
-        - External Lecturer at TUM/HM
-        - Container Security
-        - Mobile Application Security
+        - Research in container security and mobile application security
+        - External Lecturer at Technical University of Munich (TUM) and Munich University of Applied Sciences (HM)
+        - Initial Author IETF Internet-Draft on workload identity best practices
+        - Provide coprorate consulting for privacy and cybersecurity
     - title: Junior Cybersecurity Architect
-      institution: Siemens AG
+      institution: Siemens AG, Munich
+      year: 2021 - 2024
+      description:
+        - Specialized in blockchain security architecture and implementation
+        - Developed container security training programs and served as trainer
+        - Provided privacy consulting for enterprise solutions
+        - Collaborated on secure remote maintenance frameworks
+        - Published research on confidentiality in Hyperledger Fabric
+    - title: Master Thesis Student
+      institution: Siemens AG, Munich
       year: 2021
       description:
-        - Blockchain Security
-        - Container Security
-        - Privacy Consulting
-    - title: Master Thesis
-      institution: Siemens AG
-      year: 2021
-      description:
-        - Privacy enhancing audit trail for Hyperledger Blockchain.
-    - title: Software development intern
-      institution: kasasi GmBH
+        - Conducted master thesis research on "Privacy Enhancing Audit Trail in Hyperledger Blockchain"
+        - Developed novel approaches for confidential blockchain transactions
+        - Published findings in IEEE Blockchain conference
+    - title: Software Development Intern
+      institution: kasasi GmbH
       year: 2018
       description:
-        - Full stack development, creating simulation software for testing of vehicle sensor data.
-
+        - Full-stack development of vehicle sensor data simulation software
+        - Gained experience in automotive testing environments and sensor data processing
 - title: Certifications
   type: time_table
   contents:
@@ -58,38 +67,64 @@
     - title: B.Sc. Information Technology
       institution: Kempten University of Applied Sciences
       year: 2019
-    - title: University entrance qualification
+    - title: University Entrance Qualification
       institution: Staatliche Berufsoberschule Weilheim i.OB
       year: 2015
-    - title: Chemikant
+    - title: Chemikant (Chemical Technician)
       institution: Roche Diagnostics GmbH, Penzberg
       year: 2014
 
-- title: Academic Interests
+- title: Teaching & Training
+  type: time_table
+  contents:
+    - title: External Lecturer
+      institution: Technical University of Munich (TUM)
+      year: 2024 - present
+      description:
+        - Co-instructor for "Practical Course on Container Security"
+        - Curriculum design and hands-on security training
+    - title: External Lecturer
+      institution: Munich University of Applied Sciences (HM)
+      year: 2024 - present
+      description:
+        - Co-instructor for "Sicherheit in verteilten Systemen" (Security in Distributed Systems)
+        - Collaboration with industry experts in cybersecurity education
+    - title: Corporate Trainer
+      institution: Siemens AG
+      year: 2021 - present
+      description:
+        - Design and delivery of container security training programs
+        - Professional development workshops for cybersecurity teams
+
+- title: Research Interests & Expertise
   type: nested_list
   contents:
     - title: Container Security
       items: 
-        - Policy enforcement
-        - Vulnerability scanning
-        - Orchestration security
+        - Kubernetes security and policy enforcement
+        - Container vulnerability scanning and assessment
+        - Orchestration security frameworks
+        - Workload identity and authentication (IETF standards)
     - title: Mobile Application Security
       items:
-        - WASM, wasmtime, wamr
-        - AOSP for industrial use
-        - Mobile Application Security
-        - OWASP MASVS, MASTG
+        - WebAssembly security (WASM, wasmtime, WAMR)
+        - Android Open Source Project (AOSP) for industrial applications
+        - OWASP Mobile Application Security Verification Standard (MASVS)
+        - Mobile Application Security Testing Guide (MASTG) implementation
 
-- title: Unrelated Work Experience
+- title: Previous Experience
   type: time_table
   contents:
-    - title: Chemikant
+    - title: Chemical Technician (Chemikant)
       institution: Roche Diagnostics GmbH, Penzberg
       year: 2014
       description:
-        - Planning, provisioning, and evaluation of laboratory experiments in the field of enzymatic synthesis of bio substances.
+        - Laboratory experiment planning and execution in enzymatic synthesis
+        - Quality assurance and evaluation of bio-substance production processes
+        - Foundation experience in analytical thinking and systematic problem-solving
 
-- title: Other Interests
+- title: Personal Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Road Bike, Ski, Hike
+    - <u>Sports & Outdoor Activities:</u> Road Cycling, Alpine Skiing, Hiking
+    - <u>Technology:</u> Open Source Contributions, Security Research, Standards Development
