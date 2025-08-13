@@ -12,8 +12,14 @@ profile:
     <p>86551 Aichach</p>
     <a href="https://en.wikipedia.org/wiki/Munich">Munich</a>
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+announcements: # includes a list of news items
+  enabled: true
+  scrollable: true
+  limit: 5
+latest_posts:
+  enabled: true
+  scrollable: true
+  limit: 5
 selected_papers: true # includes a list of papers marked as
 social: true  # includes social icons at the bottom of the page
 ---
