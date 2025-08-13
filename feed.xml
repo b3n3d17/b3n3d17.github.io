@@ -1,5 +1,81 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://hofmannb.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hofmannb.dev/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-12-05T21:22:28+00:00</updated><id>https://hofmannb.dev/feed.xml</id><title type="html">Container and Mobile Application Security</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-</subtitle><entry><title type="html">SANS London April 2024</title><link href="https://hofmannb.dev/blog/2024/london-sec522/" rel="alternate" type="text/html" title="SANS London April 2024" /><published>2024-04-13T13:37:42+00:00</published><updated>2024-04-13T13:37:42+00:00</updated><id>https://hofmannb.dev/blog/2024/london-sec522</id><content type="html" xml:base="https://hofmannb.dev/blog/2024/london-sec522/"><![CDATA[<p>This week I had the chance to enjoy the <a href="https://www.sans.org/cyber-security-courses/application-security-securing-web-apps-api-microservices/">SEC522</a>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://hofmannb.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hofmannb.dev/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-08-13T21:29:55+00:00</updated><id>https://hofmannb.dev/feed.xml</id><title type="html">Container and Mobile Application Security</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+</subtitle><entry><title type="html">Building a Modern Audio Guide Platform - murnau.audio-guide.cloud</title><link href="https://hofmannb.dev/blog/2025/murnau-audio-guide/" rel="alternate" type="text/html" title="Building a Modern Audio Guide Platform - murnau.audio-guide.cloud" /><published>2025-08-13T15:30:00+00:00</published><updated>2025-08-13T15:30:00+00:00</updated><id>https://hofmannb.dev/blog/2025/murnau-audio-guide</id><content type="html" xml:base="https://hofmannb.dev/blog/2025/murnau-audio-guide/"><![CDATA[<p>I recently completed development of <a href="https://murnau.audio-guide.cloud">murnau.audio-guide.cloud</a>, a comprehensive digital audio guide platform for the Schlossmuseum Murnau. This project represents a modern approach to museum technology, combining robust backend architecture with an intuitive user experience.</p>
+
+<div style="display: flex; justify-content: center; margin: 2rem 0;">
+  <iframe src="https://murnau.audio-guide.cloud" width="375" height="667" style="border: 2px solid #333; border-radius: 25px; box-shadow: 0 8px 20px rgba(0,0,0,0.3);" title="Murnau Audio Guide - Mobile Preview">
+  </iframe>
+</div>
+
+<h2 id="technical-architecture--security-first-design">Technical Architecture &amp; Security-First Design</h2>
+
+<p>The platform is built using Go as the primary backend language, emphasizing minimal dependencies and maximum security. The application consists of two main components: a public-facing guide application and a comprehensive admin interface for content management.</p>
+
+<p>The guide application utilizes <a href="https://github.com/a-h/templ">Templ</a> for type-safe HTML templating, providing excellent developer experience and compile-time safety. This choice enables server-side rendering while maintaining modern web standards. The backend is powered by SQLite for data persistence, offering reliability and simplicity with zero external database dependencies.</p>
+
+<p>For interactive frontend behavior, the platform leverages <a href="https://htmx.org">HTMX</a>, which perfectly aligns with the project’s philosophy of simplicity and minimal dependencies. HTMX extends HTML’s natural hypermedia capabilities, allowing any element to make HTTP requests and target specific DOM elements for updates - not just anchors and forms. This approach eliminates the need for complex JavaScript frameworks while providing modern interactive features like AJAX, CSS transitions, and dynamic content updates. At only ~14k minified and gzipped, HTMX maintains the project’s lightweight footprint while delivering the interactivity expected in modern web applications without build steps or compilation requirements.</p>
+
+<p>For internationalization, the platform supports eleven languages (German, English, Spanish, Italian, Russian, Ukrainian, French, Arabic, Portuguese, Chinese, and Japanese) using the ctxi18n library, making the museum’s content accessible to a diverse international audience.</p>
+
+<h2 id="features-and-functionality">Features and Functionality</h2>
+
+<p>The audio guide covers multiple exhibitions within the Schlossmuseum Murnau, including “Gabriele Münter &amp; Expressionism,” “The Blue Rider - A Homage,” “Cabinet of Curiosities,” and historical content about Murnau itself. Each exhibit features high-quality audio content with accompanying images and detailed descriptions.</p>
+
+<p>The admin interface provides museum staff with comprehensive content management capabilities. Built with the same Go/Templ stack, it includes features for managing exhibitions, audio content, exhibit metadata, and user analytics. The admin system integrates with Google Cloud services for text-to-speech generation and translation capabilities, streamlining content localization workflows.</p>
+
+<h2 id="container-first-architecture--security">Container-First Architecture &amp; Security</h2>
+
+<p>The platform leverages Go’s static compilation capabilities to create minimal, secure container images. Using multi-stage Docker builds with pinned base image SHA hashes, the final containers contain only the compiled binary and essential runtime dependencies, resulting in significantly smaller attack surfaces and faster deployment times.</p>
+
+<p>Container security is enforced through multiple layers: read-only filesystems prevent runtime modifications, all Linux capabilities are dropped, processes run as unprivileged users (nobody:nobody), and no-new-privileges policies prevent privilege escalation. This defense-in-depth approach, combined with Nginx for SSL termination and Let’s Encrypt certificate management, creates a robust security posture.</p>
+
+<p>In addition, the simple setup with sqlite allows that the public facing application
+only has the database mounted readonly ensuring no modifications are possible with
+minimal effort.</p>
+
+<h2 id="cicd--deployment">CI/CD &amp; Deployment</h2>
+
+<p>The platform uses automated CI/CD with container builds, security scanning, and Ansible-based deployment. The pipeline handles everything from building images to server provisioning and backup, enabling rapid iteration with minimal manual effort.</p>
+
+<h2 id="cost-effective-server-alternative">Cost-Effective Server Alternative</h2>
+
+<p>Rather than Function-as-a-Service, I chose traditional server deployment due to cost economics. As I <a href="/news">previously noted</a>, Cloud Run with persistent storage becomes expensive - NFS volumes start at $200/month, ironically requiring VMs for “serverless” applications.</p>
+
+<p>The server approach provides predictable costs, direct filesystem access(sqlite shared across 2 containers), simplified architecture, and better performance for persistent data applications like audio guides. Proper automation delivers serverless-like operational benefits without the FaaS cost penalty and lock in.</p>
+
+<p>The containerized architecture makes future migration to Kubernetes trivial if vertical scaling becomes necessary. However, managed K8s services would be complete overkill for a single museum - by the time such scaling is needed, the platform should generate enough revenue to justify those ongoing costs.</p>
+
+<h2 id="impact-and-innovation">Impact and Innovation</h2>
+
+<p>This project demonstrates how modern web technologies can enhance cultural experiences while maintaining enterprise-grade security and operational efficiency. By combining Go’s performance and reliability with contemporary frontend approaches and hardened container deployment, the platform delivers a scalable solution that serves both museum visitors and administrative staff effectively.</p>
+
+<p>The modular architecture, minimal dependency footprint, and container-first design allow for easy expansion to additional museums or exhibitions, making it a versatile and maintainable platform for cultural institutions seeking to digitize their visitor experience with minimal operational overhead.</p>]]></content><author><name></name></author><category term="golang," /><category term="web-development," /><category term="audio-guide," /><category term="museums," /><category term="sqlite," /><category term="templ" /><summary type="html"><![CDATA[A deep dive into developing a multilingual audio guide platform using Go, Templ, and modern web technologies for the Schlossmuseum Murnau]]></summary></entry><entry><title type="html">Racing Thursdays at the Allianz Arena - My Munich Bike Stars Experience</title><link href="https://hofmannb.dev/blog/2025/munich-bike-stars-racing/" rel="alternate" type="text/html" title="Racing Thursdays at the Allianz Arena - My Munich Bike Stars Experience" /><published>2025-08-02T14:30:00+00:00</published><updated>2025-08-02T14:30:00+00:00</updated><id>https://hofmannb.dev/blog/2025/munich-bike-stars-racing</id><content type="html" xml:base="https://hofmannb.dev/blog/2025/munich-bike-stars-racing/"><![CDATA[<h1 id="racing-thursdays-at-the-allianz-arena">Racing Thursdays at the Allianz Arena</h1>
+
+<p>When I first heard about the <a href="https://www.munichbikestars.de/">Munich Bike Stars Donnerstagsrennen</a>, I was both intrigued and intimidated. Racing at 18:00 on a Thursday evening, right next to the Allianz Arena? It sounded exciting and terrifying in equal measure.</p>
+
+<p>The Munich Bike Stars Thursday races are something special in the German cycling scene. Since 2019, every summer a 1.5-kilometer circuit at Kurt-Landauer-Weg transforms into Munich’s cycling hotspot. What started with 150 participants has grown to regularly seeing over 190 racers each Thursday from May through July.</p>
+
+<blockquote>
+  <p>The Format</p>
+</blockquote>
+
+<p>The races follow a criterium format with intermediate sprint points. Victory isn’t just about crossing the finish line first - it’s about accumulating points throughout the race. Every third lap features sprint points (5/3/2/1 points for places 1-4), with double points in the final sprint. This creates incredibly dynamic racing at speeds averaging 43-46.5 km/h.</p>
+
+<p>The concept is brilliant: “Die etwas andere Feierabendrunde” (the somewhat different after-work ride). Four race categories accommodate everyone from youth racers to elite amateurs, licensed and unlicensed riders alike.</p>
+
+<blockquote>
+  <p>My Experience</p>
+</blockquote>
+
+<p>My first race was pure survival - learning criterium tactics while racing at 43 km/h around tight corners. What struck me most was the community spirit. Despite racing for individual glory and the coveted Munich Bike Stars title, riders looked out for each other and shared tactical advice.</p>
+
+<p>As the 2025 season concludes, I’m already training for next year. The goal? Win one
+race in the Hobby category and move up to the Jedermann category.</p>
+
+<p><strong>Hauptsache Ballern!</strong> (Main thing is to give it everything!)</p>
+
+<hr />
+
+<p><em>Thanks to all the Munich Bike Stars volunteers and fellow racers who made Thursday evenings so special!</em></p>]]></content><author><name></name></author><category term="life" /><category term="cycling," /><category term="racing," /><category term="munich," /><category term="criterium," /><category term="donnerstagsrennen" /><summary type="html"><![CDATA[A season of criterium racing at Munich's famous Donnerstagsrennen - from hobby racer to the hunt for the Munich Bike Stars title]]></summary></entry><entry><title type="html">SANS London April 2024</title><link href="https://hofmannb.dev/blog/2024/london-sec522/" rel="alternate" type="text/html" title="SANS London April 2024" /><published>2024-04-13T13:37:42+00:00</published><updated>2024-04-13T13:37:42+00:00</updated><id>https://hofmannb.dev/blog/2024/london-sec522</id><content type="html" xml:base="https://hofmannb.dev/blog/2024/london-sec522/"><![CDATA[<p>This week I had the chance to enjoy the <a href="https://www.sans.org/cyber-security-courses/application-security-securing-web-apps-api-microservices/">SEC522</a>
 course held by <a href="https://www.sans.org/profiles/dr-johannes-ullrich/">Johannes Ullrich</a>.
 The location ,the <a href="https://www.sans.org/cyber-security-training-events/london-april-2024/#location">Grand Connaught Rooms</a>, were really interesting.
 Many old rooms and some retrofitted to modern meeting rooms.</p>
