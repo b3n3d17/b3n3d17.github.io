@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  Simplifying OAuth for Container Orchestration
-date:   2023-10-12 20:00:16
-description: Discussing a method for simplified oauth client authentication for orchestrated containerized microservices 
+title: Simplifying OAuth for Container Orchestration
+date: 2023-10-12 20:00:16
+description: Discussing a method for simplified oauth client authentication for orchestrated containerized microservices
 tags: cybersecurity, ietf
-categories: work 
+categories: work
 ---
 
 In the world of container orchestration, where microservices dynamically interact with each other and external resources, securing access to protected resources is a paramount concern. The OAuth 2.0 framework was designed to facilitate secure access management in distributed systems, but it often poses challenges, especially when it comes to managing sensitive secrets like client IDs and client secrets. The solution to this complex issue lies in "Service Account Token Volume Projection," a concept introduced by Kubernetes that injects JSON Web Tokens (JWTs) into workloads.

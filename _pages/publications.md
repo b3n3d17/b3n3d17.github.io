@@ -3,8 +3,8 @@ layout: page
 permalink: /publications/
 title: publications
 description: Here you can find some of my publications which I authored or co-authored
-years: [2023,2022, 2021]
-nav: true
+years: [2023, 2022, 2021]
+nav: false
 nav_order: 4
 ---
 

@@ -21,7 +21,7 @@ latest_posts:
   scrollable: true
   limit: 5
 selected_papers: true # includes a list of papers marked as
-social: true  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
 
 I embarked on my career journey as a chemical technician at
@@ -46,4 +46,3 @@ professionals stay at the forefront of container security best practices.
 Notably, since 2024 my colleagues [Patrick Stöckle](https://pstoeckle.github.io/) and I
 conduct a [practicum on container security](https://www.cs.cit.tum.de/sse/lehre/practical-course-container-security/)
 at the [Technical University of Munich](https://www.tum.de/).
-

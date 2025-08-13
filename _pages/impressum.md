@@ -3,7 +3,7 @@ layout: page
 permalink: /legal/
 title: legal & privacy
 nav: true
-nav_order: 1
+nav_order: 3
 ---
 
 <!-- _pages/publications.md -->
@@ -73,4 +73,3 @@ provides the contact form, Google Ireland Limited.
 
 In case of questions on this data privacy statement or to exercise your data
 privacy rights, please reach out to the email address provided above.
-

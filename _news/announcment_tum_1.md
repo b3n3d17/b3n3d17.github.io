@@ -10,4 +10,3 @@ winter semester 🚀 at HM. There I work with [Thomas Schreck](https://schreck-t
 [Erwin Kupris](https://de.linkedin.com/in/erwin-kupris-4b5b03230),
 [Patrick Stoeckle](https://pstoeckle.github.io/) to create the lecture
 [Sicherheit in verteilten Systemen](https://zpa.cs.hm.edu/public/module/213/).
-

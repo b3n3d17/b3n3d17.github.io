@@ -30,4 +30,4 @@ race in the Hobby category and move up to the Jedermann category.
 
 ---
 
-*Thanks to all the Munich Bike Stars volunteers and fellow racers who made Thursday evenings so special!*
+_Thanks to all the Munich Bike Stars volunteers and fellow racers who made Thursday evenings so special!_

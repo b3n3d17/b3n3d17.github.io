@@ -3,10 +3,11 @@ layout: page
 permalink: /teaching/
 title: teaching
 nav: true
-nav_order: 3
+nav_order: 2
 ---
 
 ## Summer '25
+
 <img src="/assets/img/tum.png" alt="TUM Logo" height="40" style="vertical-align:middle;">  
 **Practical Course: Container Security**  
 University: Technical University of Munich (TUM)  
@@ -24,6 +25,7 @@ Link: [web.archive.org](https://web.archive.org/web/20250813202400/https://aet.c
 ---
 
 ## Winter '24/25
+
 <img src="/assets/img/hm-logo.png" alt="HM Logo" height="40" style="vertical-align:middle;">  
 **Practicum of the lecture Sicherheit in verteilten Systemen**  
 University: HM Hochschule München University of Applied Sciences  
@@ -33,6 +35,7 @@ Link: [web.archive.org](https://web.archive.org/web/20250708234418/https://zpa.c
 ---
 
 ## Summer '24
+
 <img src="/assets/img/tum.png" alt="TUM Logo" height="40" style="vertical-align:middle;">  
 **Practical Course: Container Security**  
 University: Technical University of Munich (TUM)  

@@ -2,7 +2,7 @@
   type: map
   contents:
     - name: Full Name
-      value: Benedikt Hofmann 
+      value: Benedikt Hofmann
     - name: Current Position
       value: Research Scientist, Siemens AG Munich
     - name: Location
@@ -53,17 +53,17 @@
         - GIAC Certified Web Application Defender (GWEB)
     - year: 2023
       items:
-        - GIAC Mobile Device Security Analyst (GMOB) 
+        - GIAC Mobile Device Security Analyst (GMOB)
     - year: 2022
       items:
-        - Certified Information Privacy Professional/Europe (CIPP/E) 
+        - Certified Information Privacy Professional/Europe (CIPP/E)
 
 - title: Education
   type: time_table
   contents:
     - title: M.Sc. Information Technology
       institution: Kempten University of Applied Sciences
-      year: 2021 
+      year: 2021
     - title: B.Sc. Information Technology
       institution: Kempten University of Applied Sciences
       year: 2019
@@ -100,7 +100,7 @@
   type: nested_list
   contents:
     - title: Container Security
-      items: 
+      items:
         - Kubernetes security and policy enforcement
         - Container vulnerability scanning and assessment
         - Orchestration security frameworks
