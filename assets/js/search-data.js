@@ -9,14 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-legal-amp-privacy",
-          title: "legal &amp; privacy",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/legal/";
-          },
-        },{id: "nav-cv",
+  },{id: "nav-cv",
           title: "cv",
           description: "",
           section: "Navigation",
@@ -30,14 +23,35 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "nav-publications",
-          title: "publications",
-          description: "Here you can find some of my publications which I authored or co-authored",
+        },{id: "nav-legal-amp-privacy",
+          title: "legal &amp; privacy",
+          description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/publications/";
+            window.location.href = "/legal/";
           },
-        },{id: "post-building-a-modern-audio-guide-platform-murnau-audio-guide-cloud",
+        },{id: "dropdown-publications",
+              title: "publications",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/publications/";
+              },
+            },{id: "dropdown-cv",
+              title: "cv",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/cv/";
+              },
+            },{id: "dropdown-blog",
+              title: "blog",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/blog/";
+              },
+            },{id: "post-building-a-modern-audio-guide-platform-murnau-audio-guide-cloud",
         
           title: "Building a Modern Audio Guide Platform - murnau.audio-guide.cloud",
         
