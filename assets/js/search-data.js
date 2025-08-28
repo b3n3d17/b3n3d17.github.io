@@ -51,7 +51,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-building-a-modern-audio-guide-platform-murnau-audio-guide-cloud",
+            },{id: "post-ditching-spotify-using-gdpr-data-export-to-build-your-physical-music-collection",
+        
+          title: "Ditching Spotify - Using GDPR Data Export to Build Your Physical Music Collection...",
+        
+        description: "How I used my Spotify GDPR data export and a simple Go script to identify which albums to buy when transitioning away from streaming subscriptions",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/spotify-analysis-script/";
+          
+        },
+      },{id: "post-building-a-modern-audio-guide-platform-murnau-audio-guide-cloud",
         
           title: "Building a Modern Audio Guide Platform - murnau.audio-guide.cloud",
         
@@ -191,6 +202,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-just-published-a-comprehensive-deep-dive-into-building-murnau-audio-guide-cloud-a-modern-multilingual-audio-guide-platform-for-museums-the-technical-write-up-covers-everything-from-go-templ-architecture-and-htmx-frontend-choices-to-ci-cd-automation-and-why-traditional-servers-often-beat-hyped-faas-solutions-for-simple-persistent-applications-️",
           title: 'Just published a comprehensive deep dive into building murnau.audio-guide.cloud - a modern multilingual...',
+          description: "",
+          section: "News",},{id: "news-ditching-spotify-using-gdpr-data-export-to-build-your-physical-music-collection-a-go-script-that-analyzes-your-spotify-data-to-identify-which-albums-to-buy-complete-with-search-links-perfect-timing-with-spotify-s-price-hikes",
+          title: 'Ditching Spotify - Using GDPR Data Export to Build Your Physical Music Collection....',
           description: "",
           section: "News",},{
         id: 'social-email',
