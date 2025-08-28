@@ -67,4 +67,6 @@ Once you build a physical collection, consider **Jellyfin** - a self-hosted medi
 - Stream anywhere
 - No tracking or ads
 
-Get the code [here](../../../assets/code/analyze.go)
+Get the code [here](https://gist.github.com/b3n3d17/35396864edc961d352f2a7f9472ddba2)
+
+<iframe src="https://gist.github.com/b3n3d17/35396864edc961d352f2a7f9472ddba2.pibb" width="100%" height="600" frameborder="0"></iframe>
