@@ -123,6 +123,27 @@
         - Quality assurance and evaluation of bio-substance production processes
         - Foundation experience in analytical thinking and systematic problem-solving
 
+- title: Patents & Patent Applications
+  type: time_table
+  contents:
+    - title: Patent Application -Generation of a non-fungible token
+      institution: Siemens AG
+      year: 2022
+      description: <a href="https://patents.google.com/patent/EP4325767A1/en?inventor=Benedikt+Hofmann&assignee=Siemens+Aktiengesellschaft&oq=Benedikt+Hofmann+Siemens+Aktiengesellschaft">Link to Patent Application</a>
+
+    - title: Patent Application - system for signing software artifacts 
+      institution: Siemens AG
+      year: 2023
+      description: <a href="https://patents.google.com/patent/DE102023205944A1/en?inventor=Benedikt+Hofmann&assignee=Siemens+Aktiengesellschaft&oq=Benedikt+Hofmann+Siemens+Aktiengesellschaft">Link to Patent Application</a>
+    - title: Patent Application - Policy driven provision and deployment of an application
+      institution: Siemens AG
+      year: 2023
+      description: <a href ="https://patents.google.com/patent/EP4465195A1/en?inventor=Benedikt+Hofmann&assignee=Siemens+Aktiengesellschaft&oq=Benedikt+Hofmann+Siemens+Aktiengesellschaft">Link to Patent Application</a>
+    - title: Patent Application - Automatically providing a cryptographical proof to validate a verifiable credential 
+      institution: Siemens AG
+      year: 2023
+      description: <a href ="https://patents.google.com/patent/EP4455909A1/en?inventor=Benedikt+Hofmann&assignee=Siemens+Aktiengesellschaft&oq=Benedikt+Hofmann+Siemens+Aktiengesellschaft">Link to Patent Application</a>
+
 - title: Personal Interests
   type: list
   contents:
