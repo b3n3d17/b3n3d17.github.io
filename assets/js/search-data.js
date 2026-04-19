@@ -206,6 +206,9 @@ ninja.data = [{
           section: "News",},{id: "news-ditching-spotify-using-gdpr-data-export-to-build-your-physical-music-collection-a-go-script-that-analyzes-your-spotify-data-to-identify-which-albums-to-buy-complete-with-search-links-perfect-timing-with-spotify-s-price-hikes",
           title: 'Ditching Spotify - Using GDPR Data Export to Build Your Physical Music Collection....',
           description: "",
+          section: "News",},{id: "news-proudly-using-european-mistral-now-switched-from-claude-copilot-not-disappointed-vibe-cli-is-amazing-even-if-a-bit-rough-without-an-extension",
+          title: '🇪🇺 Proudly using European Mistral now! Switched from Claude/Copilot → not disappointed! Vibe...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
