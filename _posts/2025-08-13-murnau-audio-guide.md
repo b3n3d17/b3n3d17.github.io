@@ -3,7 +3,7 @@ layout: post
 title: Building a Modern Audio Guide Platform - murnau.audio-guide.cloud
 date: 2025-08-13 15:30:00
 description: "A deep dive into developing a multilingual audio guide platform using Go, Templ, and modern web technologies for the Schlossmuseum Murnau"
-tags: golang, web-development, audio-guide, museums, sqlite, templ
+tags: golang, web-development, audio-guide, museums, sqlite
 ---
 
 I recently completed development of [murnau.audio-guide.cloud](https://murnau.audio-guide.cloud), a comprehensive digital audio guide platform for the Schlossmuseum Murnau. This project represents a modern approach to museum technology, combining robust backend architecture with an intuitive user experience.

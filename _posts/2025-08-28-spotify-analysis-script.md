@@ -3,7 +3,7 @@ layout: post
 title: "Ditching Spotify - Using GDPR Data Export to Build Your Physical Music Collection"
 date: 2025-08-28 15:00:00
 description: "How I used my Spotify GDPR data export and a simple Go script to identify which albums to buy when transitioning away from streaming subscriptions"
-tags: golang, spotify, gdpr, music, physical-media, data-export
+tags: golang, spotify, gdpr, music, data-export
 ---
 
 I'm ditching my Spotify subscription to build a physical music collection. While streaming is convenient, I want to own the music I love most and stop paying monthly fees for something ephemeral.
