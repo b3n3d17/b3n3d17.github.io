@@ -209,6 +209,9 @@ ninja.data = [{
           section: "News",},{id: "news-proudly-using-european-mistral-now-switched-from-claude-copilot-not-disappointed-vibe-cli-is-amazing-even-if-a-bit-rough-without-an-extension",
           title: '🇪🇺 Proudly using European Mistral now! Switched from Claude/Copilot → not disappointed! Vibe...',
           description: "",
+          section: "News",},{id: "news-i-ve-achieved-the-giac-certified-machine-learning-engineer-gmle-certification-this-time-i-took-the-in-person-exam-at-a-testing-center-much-better-than-the-online-proctored-exams-with-webcams",
+          title: 'I’ve achieved the GIAC Certified Machine Learning Engineer (GMLE) certification! This time I...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
