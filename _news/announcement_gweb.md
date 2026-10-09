@@ -2,6 +2,7 @@
 layout: post
 date: 2024-08-24 14:00:00-0400
 inline: true
+tags: giac, gweb, certification, cybersecurity
 ---
 
 I've achieved the [GIAC Certified Web Application Defender (GWEB)](https://www.giac.org/certifications/certified-web-application-defender-gweb/)

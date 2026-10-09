@@ -1,10 +1,10 @@
 ---
 layout: post
 title: GIAC Machine Learning Engineer (GMLE) Certification
-date: 2026-10-09 12:00:00-0400
+date: 2026-10-09 12:00:00
 description: Earned the GIAC Certified Machine Learning Engineer certification
 categories: work, certification
-tags: giac, gmle, machine-learning, certification, cybersecurity
+tags: giac, sans, certification, cybersecurity
 ---
 
 # GIAC Machine Learning Engineer (GMLE) Certification
