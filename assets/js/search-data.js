@@ -51,7 +51,29 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-ditching-spotify-using-gdpr-data-export-to-build-your-physical-music-collection",
+            },{id: "post-interesting-talks-i-heard-at-ase-2026-that-inspired-me",
+        
+          title: "Interesting Talks I Heard at ASE 2026 that Inspired Me",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/ase-2026-talks-lookup/";
+          
+        },
+      },{id: "post-giac-machine-learning-engineer-gmle-certification",
+        
+          title: "GIAC Machine Learning Engineer (GMLE) Certification",
+        
+        description: "Earned the GIAC Certified Machine Learning Engineer certification",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/giac-gmle-certification/";
+          
+        },
+      },{id: "post-ditching-spotify-using-gdpr-data-export-to-build-your-physical-music-collection",
         
           title: "Ditching Spotify - Using GDPR Data Export to Build Your Physical Music Collection...",
         
@@ -211,6 +233,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-i-ve-achieved-the-giac-certified-machine-learning-engineer-gmle-certification-this-time-i-took-the-in-person-exam-at-a-testing-center-much-better-than-the-online-proctored-exams-with-webcams",
           title: 'I’ve achieved the GIAC Certified Machine Learning Engineer (GMLE) certification! This time I...',
+          description: "",
+          section: "News",},{id: "news-patrick-stoeckle-and-i-presented-our-paper-closing-the-gap-automated-discovery-of-secure-dockerfile-reference-standards-via-semantic-clustering-in-enterprise-inner-source-at-ase-2026-in-munich-jessica-hösl-our-thesis-student-was-the-main-author-of-the-paper-the-paper-presents-an-automated-pipeline-that-analyzed-11-470-dockerfiles-from-inners-ource-repositories-at-siemens-ag-it-shows-that-adopting-existing-internal-reference-implementations-could-improve-security-posture-by-60-4",
+          title: 'Patrick Stoeckle and I presented our paper “Closing the Gap: Automated Discovery of...',
           description: "",
           section: "News",},{
         id: 'social-email',
