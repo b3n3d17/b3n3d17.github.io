@@ -2,16 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Research Scientist @ Siemens AG
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: avatar.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Munich / Murnau</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,8 +25,28 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I embarked on my career journey as a chemical technician at
+[Roche Diagnostics GmbH in Penzberg](https://www.roche.de/ueber-roche/standorte/penzberg/),
+laying the foundation for my professional growth. Fueled by a curiosity, I pursued
+higher education, earning both a Bachelor's and Master's degree in Computer Sciences
+from the [University of Applied Sciences Kempten](https://www.hs-kempten.de/).
+During my academic journey, I blended my technological aspirations with the serene
+landscapes of the Allgäu region, finding inspiration in the mountains and on the road bike.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My academic voyage reached its zenith with a thesis at [Siemens AG](https://siemens.com)
+in Munich, which provided a practical perspective on the tech world. Today, I
+proudly serve as a Research Scientist at Siemens AG, specializing in Industrial AI Security.
+In this role, I research and consult on cybersecurity domains such as container security,
+mobile application security, and privacy, collaborating closely with my talented colleagues.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I've also had the privilege of being part of a dynamic team at Siemens, where we
+collectively developed and conducted container security training programs. As a
+trainer, I've been able to share my knowledge and practical insights, helping
+professionals stay at the forefront of container security best practices.
+
+Notably, since 2024 my colleagues [Patrick Stöckle](https://pstoeckle.github.io/) and I
+conduct a [practicum on container security](https://www.cs.cit.tum.de/sse/lehre/practical-course-container-security/)
+at the [Technical University of Munich](https://www.tum.de/).
+
+Recently, I earned my [GIAC Certified Machine Learning Engineer (GMLE)](https://www.giac.org/certifications/machine-learning-engineer-gmle/) certification and am currently applying this knowledge to enhance AI security in industrial use cases.
+
