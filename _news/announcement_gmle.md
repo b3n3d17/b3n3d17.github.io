@@ -5,5 +5,4 @@ inline: true
 tags: giac, sans, certification, cybersecurity
 ---
 
-I've achieved the [GIAC Certified Machine Learning Engineer (GMLE)](https://www.giac.org/certifications/machine-learning-engineer-gmle)
-certification! This time I took the in-person exam at a testing center. Much better than the online proctored exams with webcams. 🤜 🤛
+I've achieved the [GIAC Certified Machine Learning Engineer (GMLE)](https://www.giac.org/certifications/machine-learning-engineer-gmle) certification! This time, I took the in-person exam at a testing center. Much better than the online proctored exams with webcams. 🤜 🤛

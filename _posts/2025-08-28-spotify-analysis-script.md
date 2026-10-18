@@ -20,7 +20,7 @@ Thanks to GDPR, getting your Spotify data is straightforward. The challenge? Mak
 
 ## The Problem
 
-My export contained 300,000+ streaming events over 5 years. Each record includes track name, album, artist, and play duration. The perfect data to compute which albums to buy, but not something "every day people" would use. So I utilized a little bit of golang to automate the process.
+My export contained over 300,000 streaming events spanning 5 years. Each record includes track name, album, artist, and play duration—the perfect data to compute which albums to buy, but not something "everyday people" would use. So I utilized a bit of Go to automate the process.
 
 The Go script processes the export and generates reports with:
 

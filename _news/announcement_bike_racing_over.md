@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Already missing the Thursday evening criterium races at the [Allianz Arena]({% post_url 2025-08-02-munich-bike-stars-racing %}). Can't wait for next season! 🚴‍♂️⚡
+I'm already missing the Thursday evening criterium races at the [Allianz Arena]({% post_url 2025-08-02-munich-bike-stars-racing %}). Can't wait for next season! 🚴‍♂️⚡

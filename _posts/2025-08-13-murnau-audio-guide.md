@@ -41,9 +41,7 @@ The platform leverages Go's static compilation capabilities to create minimal, s
 
 Container security is enforced through multiple layers: read-only filesystems prevent runtime modifications, all Linux capabilities are dropped, processes run as unprivileged users (nobody:nobody), and no-new-privileges policies prevent privilege escalation. This defense-in-depth approach, combined with Nginx for SSL termination and Let's Encrypt certificate management, creates a robust security posture.
 
-In addition, the simple setup with sqlite allows that the public facing application
-only has the database mounted readonly ensuring no modifications are possible with
-minimal effort.
+In addition, the simple SQLite setup allows the public-facing application to mount the database as read-only, ensuring no modifications are possible with minimal effort.
 
 ## CI/CD & Deployment
 

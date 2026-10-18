@@ -5,6 +5,4 @@ inline: true
 tags: giac, gweb, certification, cybersecurity
 ---
 
-I've achieved the [GIAC Certified Web Application Defender (GWEB)](https://www.giac.org/certifications/certified-web-application-defender-gweb/)
-certification! Together with the SEC522 Training its a really interesting learning
-experience. Great hands on exercises to make web security tangible .
+I've achieved the [GIAC Certified Web Application Defender (GWEB)](https://www.giac.org/certifications/certified-web-application-defender-gweb/) certification! Together with the SEC522 Training, it's a really interesting learning experience. Great hands-on exercises to make web security tangible.
