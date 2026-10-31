@@ -25,28 +25,24 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I embarked on my career journey as a chemical technician at
+I started out as a chemical technician at
 [Roche Diagnostics GmbH in Penzberg](https://www.roche.de/ueber-roche/standorte/penzberg/),
-laying the foundation for my professional growth. Fueled by a curiosity, I pursued
-higher education, earning both a Bachelor's and Master's degree in Computer Sciences
-from the [University of Applied Sciences Kempten](https://www.hs-kempten.de/).
-During my academic journey, I blended my technological aspirations with the serene
-landscapes of the Allgäu region, finding inspiration in the mountains and on the road bike.
+then switched directions and studied Computer Science, earning a Bachelor's and
+Master's degree from the [University of Applied Sciences Kempten](https://www.hs-kempten.de/).
+I wrote my Master's thesis at [Siemens AG](https://siemens.com) in Munich and have
+worked there since, now as a Research Scientist specializing in Industrial AI Security.
 
-My academic voyage reached its zenith with a thesis at [Siemens AG](https://siemens.com)
-in Munich, which provided a practical perspective on the tech world. Today, I
-proudly serve as a Research Scientist at Siemens AG, specializing in Industrial AI Security.
-In this role, I research and consult on cybersecurity domains such as container security,
-mobile application security, and privacy, collaborating closely with my talented colleagues.
+My work covers cybersecurity topics such as container security, mobile application
+security, and privacy, where I both do research and consult for internal teams.
+Together with colleagues, I developed and run Siemens' container security training
+program. Starting in 2024, [Patrick Stöckle](https://pstoeckle.github.io/) and I
+taught a [practicum on container security](https://www.cs.cit.tum.de/sse/lehre/practical-course-container-security/)
+at the [Technical University of Munich](https://www.tum.de/) and
+[Hochschule München](https://www.hm.edu/), though we're not running it at the moment.
 
-I've also had the privilege of being part of a dynamic team at Siemens, where we
-collectively developed and conducted container security training programs. As a
-trainer, I've been able to share my knowledge and practical insights, helping
-professionals stay at the forefront of container security best practices.
+On the side, I also run the [audio guide](https://murnau.audio-guide.cloud) for the
+[Schlossmuseum Murnau](https://www.schlossmuseum-murnau.de/).
 
-Notably, since 2024 my colleagues [Patrick Stöckle](https://pstoeckle.github.io/) and I
-conduct a [practicum on container security](https://www.cs.cit.tum.de/sse/lehre/practical-course-container-security/)
-at the [Technical University of Munich](https://www.tum.de/).
-
-Recently, I earned my [GIAC Certified Machine Learning Engineer (GMLE)](https://www.giac.org/certifications/machine-learning-engineer-gmle/) certification and am currently applying this knowledge to enhance AI security in industrial use cases.
+When I'm not working, I'm out on my road bike — riding around southern Bavaria
+and Austria, or at the occasional local amateur crit race.
 
