@@ -34,8 +34,8 @@ worked there since, now as a Research Scientist specializing in Industrial AI Se
 
 My work covers cybersecurity topics such as container security, mobile application
 security, and privacy, where I both do research and consult for internal teams.
-Together with colleagues, I developed and run Siemens' container security training
-program. Starting in 2024, [Patrick Stöckle](https://pstoeckle.github.io/) and I
+Together with colleagues, I developed and run Siemens' internal container security
+trainings. Starting in 2024, [Patrick Stöckle](https://pstoeckle.github.io/) and I
 taught a [practicum on container security](https://www.cs.cit.tum.de/sse/lehre/practical-course-container-security/)
 at the [Technical University of Munich](https://www.tum.de/) and
 [Hochschule München](https://www.hm.edu/), though we're not running it at the moment.
